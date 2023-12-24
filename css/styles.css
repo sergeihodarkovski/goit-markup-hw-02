@@ -88,9 +88,7 @@ ul {
 }
 
 .hero-button:hover {
-  border-radius: 4px;
   background: var(--OCEAN, #404bbf);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:focus {
