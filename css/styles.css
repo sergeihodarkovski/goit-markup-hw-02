@@ -97,20 +97,6 @@ ul {
   background-color: #404bbf;
 }
 
-/*-------------------------*/
-
-.visually-hidden {
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 /*------------features-------------*/
 
 .features-titei {
@@ -145,7 +131,7 @@ ul {
 }
 
 .team-card-list {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .team-card-titei-list {
@@ -168,7 +154,11 @@ ul {
 /*------------portfolio-------------*/
 
 .portfolio {
-  background-color: #fff;
+  background-color: #ffffff;
+}
+
+.portfolio-list {
+  background-color: #ffffff;
 }
 
 .portfolio-titel {
