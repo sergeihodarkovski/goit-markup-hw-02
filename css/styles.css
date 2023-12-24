@@ -132,6 +132,10 @@ ul {
   background-color: #ffffff;
 }
 
+.team-card-item {
+  background-color: #ffffff;
+}
+
 .team-card-titei-list {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
