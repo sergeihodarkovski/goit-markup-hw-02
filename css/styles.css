@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 a {
@@ -12,10 +14,10 @@ ul {
 
 .header-logo {
   color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -40,6 +42,10 @@ ul {
   color: #404bbf;
 }
 
+.header-address {
+  font-style: normal;
+}
+
 .header-list-link {
   color: var(--SLATE, #434455);
   font-size: 16px;
@@ -56,6 +62,10 @@ ul {
 }
 
 /*------------hero-------------*/
+
+.hero {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
 
 .hero-titel {
   color: var(--WHITE, #fff);
@@ -81,6 +91,11 @@ ul {
   background: var(--OCEAN, #404bbf);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
 /*-------------------------*/
 
 .visually-hidden {
