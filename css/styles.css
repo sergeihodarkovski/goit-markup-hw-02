@@ -4,12 +4,46 @@ body {
   background-color: #ffffff;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 a {
   text-decoration: none;
+  color: currentColor;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 120px 156px 120px 156px;
+  margin: 0 auto;
 }
 
 ul {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo {
@@ -67,6 +101,10 @@ ul {
   background: var(--NAVY-BLUE, #2e2f42);
 }
 
+.hero-container {
+  padding: 188px 472px 292px 472px;
+}
+
 .hero-titel {
   color: var(--WHITE, #fff);
   text-align: center;
@@ -74,6 +112,7 @@ ul {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 
 .hero-button {
@@ -85,6 +124,7 @@ ul {
   letter-spacing: 0.04em;
   cursor: pointer;
   background-color: #4d5ae5;
+  border-radius: 4px;
 }
 
 .hero-button:hover {
